@@ -8,7 +8,16 @@
   font-family: font2;
   src: url(../src/assets/fonts/Lausanne-500.woff2);
 }
-
+.link:hover .moveLink{
+  opacity: 1;
+  transition: all ease 0.3s;
+}
+.moveLink{
+  opacity: 0;
+}
+.parent:hover .child{
+  background: #D3FD50;
+}
 body{
   overflow-x: hidden;
 }
