@@ -12,6 +12,7 @@ const App = () => {
   return (
     <div>
        <Navbar/>
+       <Navfull/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/agency' element={<Agency />} />
