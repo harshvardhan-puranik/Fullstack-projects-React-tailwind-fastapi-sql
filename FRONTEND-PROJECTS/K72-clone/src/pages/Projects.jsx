@@ -39,7 +39,6 @@ const projects = () => {
           amount:0.4
         },
         scrollTrigger:{
-          markers:true,
           trigger: '.parent',
           start:'top 10%',
           end:'top -350%',
