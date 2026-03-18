@@ -13,8 +13,11 @@ const Home = () => {
     <div className="h-screen w-screen overflow-hidden relative flex flex-col justify-between text-white">
       <Homeherotext></Homeherotext>
       <Content/>
-      <Homebottomtext></Homebottomtext>
+      <div className='flex items-center gap-1'>
       <RealTimeDate/>
+      <Homebottomtext></Homebottomtext>
+      
+      </div>
     </div>
   </div>
   )

@@ -21,14 +21,31 @@ const RealTimeDate = () => {
   const clock = time.toLocaleTimeString('en-US');
 
   return (
-    <div className="fixed bottom-6 left-6">
-      <div className="bg-black/70 backdrop-blur-xl border border-white/10 px-5 py-3 rounded-xl shadow-lg">
+    <div className="w-fit max-w-[90vw]">
+      <div className="
+        bg-black/60 backdrop-blur-xl 
+        border border-white/10 
+        rounded-xl shadow-lg
         
-        <div className="text-xs tracking-[0.25em] text-white/50 uppercase">
+        px-3 py-2 
+        sm:px-4 sm:py-2.5 
+        md:px-5 md:py-3
+      ">
+        
+        <div className="
+          text-[10px] sm:text-xs md:text-sm 
+          tracking-[0.2em] sm:tracking-[0.25em] 
+          text-white/50 uppercase
+        ">
           {date}
         </div>
 
-        <div className="text-2xl font-semibold text-white mt-1 tracking-wide">
+        <div className="
+          text-lg sm:text-xl md:text-2xl lg:text-3xl 
+          font-semibold text-white 
+          mt-0.5 sm:mt-1 
+          tracking-wide
+        ">
           {clock}
         </div>
 
