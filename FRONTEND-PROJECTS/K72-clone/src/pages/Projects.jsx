@@ -43,7 +43,7 @@ const projects = () => {
         scrollTrigger:{
           trigger: '.parent',
           start:'top 10%',
-          end:'top -150%',
+          end:'top -460%',
           scrub:true
         }
       })
